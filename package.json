@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:matthiasbeyer/action-block-conventional-commits.git",
   "author": "Adrian Smijulj <adrian1358@gmail.com>",
+  "contributors": [
+    "Matthias Beyer <mail@beyermatthias.de>"
+  ],
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.3",
