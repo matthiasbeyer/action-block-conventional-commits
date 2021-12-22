@@ -1,8 +1,8 @@
 {
-  "name": "action-conventional-commits",
+  "name": "action-block-conventional-commits",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:doitadrian/action-conventional-commits.git",
+  "repository": "git@github.com:matthiasbeyer/action-block-conventional-commits.git",
   "author": "Adrian Smijulj <adrian1358@gmail.com>",
   "license": "MIT",
   "dependencies": {
