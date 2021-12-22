@@ -34,7 +34,7 @@ const isValidCommitMessage = (message, availableTypes = DEFAULT_COMMIT_TYPES): b
         .replace(/()/g, "") // Remove all whitespace
         .replace(/[^a-z]/g, ""); // Only leave [a-z] characters.
 
-    return availableTypes.includes(possiblyValidCommitType);
+    return !availableTypes.includes(possiblyValidCommitType);
 };
 
 export default isValidCommitMessage;
